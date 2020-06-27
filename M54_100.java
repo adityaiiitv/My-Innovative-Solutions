@@ -6,7 +6,6 @@ class Solution {
             return result;
         }
         int left = 0, right = matrix[0].length-1, top = 0, bottom = matrix.length-1;
-        int count = 0, total = (right+1)*(bottom+1);
         while(left<=right && top<=bottom)
         {
             for(int i=left;i<=right;i++)
